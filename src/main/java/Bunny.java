@@ -6,5 +6,8 @@ public class Bunny extends Pet {
         super(name, age, howMany, petType, speak);
     }
 
+    public String speak() {
+        return "hum hum hum";
+    }
 
     }
