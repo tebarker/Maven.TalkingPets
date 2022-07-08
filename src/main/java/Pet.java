@@ -54,6 +54,7 @@ public abstract class Pet {
         return speak;
     }
 
-    }
+    public abstract String speak();
+}
 
 

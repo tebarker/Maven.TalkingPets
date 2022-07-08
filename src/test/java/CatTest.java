@@ -34,7 +34,7 @@ public class CatTest {
     public void testSetName(){
         //Given (cat data)
         String givenName = "Selena";
-        double givenAge = 5.5;
+        double givenAge = 3;
         int givenHowMany = 2;
         String givenPetType = "Maine Coon";
         String givenSpeak = "meow!";
@@ -51,10 +51,10 @@ public class CatTest {
     }
 
     @Test
-    public  void testAge() {
+    public  void testGetAge() {
         //Given (cat data)
         String givenName = "Bella";
-        Double givenAge = 5.5;
+        Double givenAge = 2.0;
         int givenHowMany = 2;
         String givenPetType = "Maine Coon";
         String givenSpeak = "meow!";
@@ -72,8 +72,8 @@ public class CatTest {
     public void testHowMany() {
         //Given (cat data)
         String givenName = "Taylor";
-        double givenAge = 5.5;
-        int givenHowMany = 2;
+        double givenAge = 7;
+        int givenHowMany = 3;
         String givenPetType = "Maine Coon Cat";
         String givenSpeak = "meow!";
 
@@ -90,8 +90,8 @@ public class CatTest {
     public void testPetType() {
         //Given (cat data)
         String givenName = "Zula";
-        double givenAge = 5.5;
-        int givenHowMany = 2;
+        double givenAge = 1;
+        int givenHowMany = 1;
         String givenPetType = "Siamese Cat";
         String givenSpeak = "meow!";
 

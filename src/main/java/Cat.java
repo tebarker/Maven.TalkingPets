@@ -5,7 +5,7 @@ public class Cat extends Pet {
         super(name, age, howMany, petType, speak);
 
     }
-
+    @Override
     public String speak() {
         return "meow!";
     }
